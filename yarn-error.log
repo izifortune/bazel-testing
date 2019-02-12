@@ -1,0 +1,40 @@
+Arguments: 
+  /Users/fortune/.nvm/versions/node/v8.12.0/bin/node /Users/fortune/.yarn/bin/yarn.js
+
+PATH: 
+  /Users/fortune/.nvm/versions/node/v8.12.0/bin:/usr/local/sbin:/usr/local/opt/mozjpeg/bin:/Users/fortune/.fzf/bin:/Users/fortune/.yarn/bin:/Users/fortune/.config/bin:/Users/fortune/Library/Python/3.6/bin:/Users/fortune/Library/Python/2.7/bin:/Users/fortune/.config/bin:/Users/fortune/Library/Python/3.6/bin:/Users/fortune/Library/Python/2.7/bin:/Users/fortune/.config/bin:/Users/fortune/Library/Python/3.6/bin:/Users/fortune/Library/Python/2.7/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/git/bin:/Library/TeX/texbin
+
+Yarn version: 
+  1.7.0
+
+Node version: 
+  8.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, open '/Users/fortune/Library/Caches/Yarn/v1/npm-@bazel/bazel-darwin_x64-0.22.0-a2bea5922dba9a32554a218ba4849a200115b248/.yarn-metadata.json'
+
+npm manifest: 
+  {
+    "name": "bazel-try",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@bazel/bazel": "^0.22.0",
+      "@bazel/typescript": "^0.24.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
